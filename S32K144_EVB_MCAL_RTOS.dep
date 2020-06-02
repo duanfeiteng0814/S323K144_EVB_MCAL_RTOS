@@ -5,51 +5,95 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\platform\devices\status.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\S32K144_EVB_MCAL_RTOS.pbd</file>
-            <file>$PROJ_DIR$\Debug\Exe\S32K144_EVB_MCAL_RTOS.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup.pbi</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\platform\devices\S32K144\startup\system_S32K144.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\platform\devices\callbacks.h</file>
-            <file>$PROJ_DIR$\platform\devices\startup.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\platform\devices\startup.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_S32K144.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup.__cstat.et</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_S32K144.o</file>
-            <file>$PROJ_DIR$\platform\devices\S32K144\startup\system_S32K144.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\platform\devices\device_registers.h</file>
-            <file>$PROJ_DIR$\platform\devices\common\s32_core_cm4.h</file>
+            <file>$PROJ_DIR$\platform\devices\startup.c</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\system_S32K144.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\S32K144_EVB_MCAL_RTOS.pbd</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\platform\devices\S32K144\startup\iar\startup_S32K144.s</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup.o</file>
-            <file>$PROJ_DIR$\platform\devices\S32K144\startup\iar\startup_S32K144.s</file>
+            <file>$PROJ_DIR$\platform\devices\startup.h</file>
+            <file>$PROJ_DIR$\platform\devices\common\s32_core_cm4.h</file>
+            <file>$PROJ_DIR$\platform\devices\device_registers.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_S32K144.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+            <file>$PROJ_DIR$\platform\devices\status.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\platform\devices\devassert.h</file>
-            <file>$PROJ_DIR$\platform\devices\S32K144\linker\iar\S32K144_64_flash.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup.o</file>
+            <file>$PROJ_DIR$\Debug\Exe\S32K144_EVB_MCAL_RTOS.out</file>
+            <file>$PROJ_DIR$\platform\devices\callbacks.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\platform\devices\S32K144\startup\system_S32K144.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\platform\devices\S32K144\include\S32K144.h</file>
             <file>$PROJ_DIR$\platform\devices\S32K144\include\S32K144_features.h</file>
+            <file>$PROJ_DIR$\platform\devices\S32K144\linker\iar\S32K144_64_flash.icf</file>
             <file>$PROJ_DIR$\Debug\List\S32K144_EVB_MCAL_RTOS.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_S32K144.__cstat.et</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_S32K144.__cstat.et</file>
         </outputs>
         <file>
-            <name>[ROOT_NODE]</name>
+            <name>$PROJ_DIR$\platform\devices\startup.c</name>
             <outputs>
                 <tool>
-                    <name>ILINK</name>
-                    <file> 6 35</file>
+                    <name>__cstat</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 11 20 28 23 30 1 17 16 32 33 24 18</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 33 30 16 17 20 1 11 28 23 32 24 15 18</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 13</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\platform\devices\S32K144\startup\iar\startup_S32K144.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 2</file>
                 </tool>
             </outputs>
         </file>
@@ -64,20 +108,20 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 32 28 29 21 15 2 1 8 37</file>
+                    <file> 34 14 25 2 19 4 8 31 36</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\platform\devices\startup.c</name>
+            <name>$PROJ_DIR$\platform\devices\S32K144\startup\system_S32K144.c</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 29</file>
+                    <name>__cstat</name>
+                    <file> 37</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 16</file>
+                    <name>ICCARM</name>
+                    <file> 19</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -87,64 +131,20 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 14 18 19 10 23 4 20 24 25 33 34 31 17</file>
+                    <file> 17 16 32 11 20 28 23 30 1 33 24 18 0</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 34 4 25 24 19 20 18 10 23 33 31 14 17</file>
+                    <file> 23 18 16 33 0 32 24 11 28 17 20 30 1</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\main.c</name>
+            <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
-                    <name>ICCARM</name>
-                    <file> 28</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 27</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 0</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\platform\devices\S32K144\startup\system_S32K144.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 15</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 36</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 26</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 25 33 18 19 10 23 4 20 34 31 17 9</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 23 17 25 34 9 33 31 18 10 24 19 4 20</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\platform\devices\S32K144\startup\iar\startup_S32K144.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 21</file>
+                    <name>ILINK</name>
+                    <file> 26 35</file>
                 </tool>
             </outputs>
         </file>
