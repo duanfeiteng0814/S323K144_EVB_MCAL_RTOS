@@ -15,6 +15,36 @@
         <Enabled>0</Enabled>
         <ShowSource>1</ShowSource>
     </Trace1>
+    <DebugChecksum>
+        <Checksum>2098199028</Checksum>
+    </DebugChecksum>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>1</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
     <InterruptLog>
         <LogEnabled>0</LogEnabled>
         <GraphEnabled>0</GraphEnabled>
@@ -30,9 +60,6 @@
         <SumEnabled>0</SumEnabled>
         <ShowTimeSum>1</ShowTimeSum>
     </DataLog>
-    <DisassembleMode>
-        <mode>0</mode>
-    </DisassembleMode>
     <Breakpoints2>
         <Count>0</Count>
     </Breakpoints2>
@@ -46,13 +73,85 @@
         <TypeViol>0</TypeViol>
         <Stop>1</Stop>
     </MemConfig>
-    <Aliases>
-        <Count>0</Count>
-        <SuppressDialog>0</SuppressDialog>
-    </Aliases>
     <Simulator>
         <Freq>10000000</Freq>
         <FreqHi>0</FreqHi>
         <MultiCoreRunAll>1</MultiCoreRunAll>
     </Simulator>
+    <PE_STARTUP>
+        <jtag_numbits_pre_ir>_ "0"</jtag_numbits_pre_ir>
+        <jtag_tap_num>_ "0"</jtag_tap_num>
+        <user_specified_daisy_chain>_ "0"</user_specified_daisy_chain>
+        <CPUTARGETTYPENAME>_ "ARM Processor - Autodetect"</CPUTARGETTYPENAME>
+        <USE_CYCLONEPRO_RELAYS>_ "0"</USE_CYCLONEPRO_RELAYS>
+        <CyclonePro_poweroffonexit>_ "0"</CyclonePro_poweroffonexit>
+        <CyclonePro_currentvoltage>_ "128"</CyclonePro_currentvoltage>
+        <CyclonePro_PowerDownDelay>_ "250"</CyclonePro_PowerDownDelay>
+        <CyclonePro_PowerUpDelay>_ "250"</CyclonePro_PowerUpDelay>
+        <Multilink_PowerDownDelay>_ "250"</Multilink_PowerDownDelay>
+        <Multilink_PowerUpDelay>_ "1000"</Multilink_PowerUpDelay>
+        <USE_SWD>_ "1"</USE_SWD>
+        <IO_DELAY_CNT>_ "0"</IO_DELAY_CNT>
+        <FREQ_FX>_ "4"</FREQ_FX>
+        <FREQ_NORMAL>_ "0"</FREQ_NORMAL>
+        <FREQ_OSJTAG>_ "0"</FREQ_OSJTAG>
+        <FREQ_CYCLONE>_ "3"</FREQ_CYCLONE>
+        <FREQ_TRACELINK>_ "3"</FREQ_TRACELINK>
+        <FREQ_LIGHTNING>_ "1"</FREQ_LIGHTNING>
+        <FREQ_OPENSDA>_ "3"</FREQ_OPENSDA>
+        <RESET_DELAY>_ "0"</RESET_DELAY>
+        <PORT>_ "181"</PORT>
+        <PORT_NAME_STRING>_ "9931CE7C"</PORT_NAME_STRING>
+        <interface_selection>_ "7"</interface_selection>
+        <TraceLink_MaxBufferSize>_ "1"</TraceLink_MaxBufferSize>
+        <SHOWDIALOG>_ "1"</SHOWDIALOG>
+    </PE_STARTUP>
+    <PE_STORED_DEVICES>
+        <device0>_ "NXP_S32K1xx_S32K144F512M15"</device0>
+    </PE_STORED_DEVICES>
+    <PE_PEDEBUG>
+        <ERASE_PROGRAM_WITHOUT_ASKING>_ "1"</ERASE_PROGRAM_WITHOUT_ASKING>
+        <CURRENTMODE>_ "4"</CURRENTMODE>
+        <CURRENTDEVICE>_ "NXP_S32K1xx_S32K144F512M15"</CURRENTDEVICE>
+        <CURRENTCORE>_ "1"</CURRENTCORE>
+    </PE_PEDEBUG>
+    <PE_DEVICE>
+        <CHIPMODE>_ "NXP_S32K1xx_S32K144F512M15"</CHIPMODE>
+    </PE_DEVICE>
+    <PE_SETTINGS>
+        <MEMORYSTART1>_ "0"</MEMORYSTART1>
+        <MEMORYSTART2>_ "0"</MEMORYSTART2>
+        <MEMORYSTART3>_ "0"</MEMORYSTART3>
+        <DEFAULT_SOURCE_PATH>_ "D:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\arm\bin\pemicro\P&amp;E"</DEFAULT_SOURCE_PATH>
+    </PE_SETTINGS>
+    <PE_STARTUP12>
+        <show_hstep_assembly_details_new>_ "0"</show_hstep_assembly_details_new>
+    </PE_STARTUP12>
+    <PE_ARM>
+        <FILE1>_ ""</FILE1>
+        <BINTORAM>_ "1"</BINTORAM>
+        <BINTOFLASH>_ "0"</BINTOFLASH>
+        <BINTOFLASHDEFAULT>_ "0"</BINTOFLASHDEFAULT>
+        <GOTILMAINDEFAULTON>_ "1"</GOTILMAINDEFAULTON>
+        <KEEPCPROGOPEN>_ "0"</KEEPCPROGOPEN>
+    </PE_ARM>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints>
+        <Count>0</Count>
+    </Breakpoints>
+    <Aliases>
+        <Count>0</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
 </settings>
